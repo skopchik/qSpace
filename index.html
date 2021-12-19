@@ -20,9 +20,10 @@
   </head>
   <body>
     <header class="header common-margin">
+      <!-- HEADER NAVBAR START -->
       <nav class="header__navbar">
         <span class="navbar__logo"> qSpace </span>
-        <span class="navbar__line"></span>
+        <div class="navbar__line"></div>
         <ul class="navbar__menu">
           <li class="navbar__menu-item">
             <a href="#" class="navbar__link">Home</a>
@@ -41,22 +42,22 @@
           </li>
         </ul>
       </nav>
+      <!-- HEADER NAVBAR END -->
+      <!-- PROMO-BLOCK START -->
       <div class="promo-block">
         <div class="promo-block__text-container">
-          <p class="promo-block__remark remark remark_underline-color-1">
-            Jakarta, Indonesia
-          </p>
+          <p class="remark remark_underline-yellow">Jakarta, Indonesia</p>
           <p class="promo-block__title title">
             Revolutioning the way people and company works
           </p>
-          <p class="promo-block__text text">
+          <p class="text">
             Eu consectetur odio imperdiet ipsum dui. Magna sed <br />
             lobortis vel auctor pharetra risus.
           </p>
-          <button class="promo-block__button button button_color-1">
+          <button class="promo-block__button button button_yellow">
             Reservation
             <svg
-              class="button-svg_color-1"
+              class="button-svg_yellow"
               width="22"
               height="15"
               viewBox="0 0 22 15"
@@ -76,27 +77,29 @@
             <img
               src="./images/promo-block__img-2.jpg"
               alt=""
-              class="promo-block__img promo-block__img-position-2"
+              class="promo-block__img promo-block__img-position-middle"
             />
           </div>
           <div class="promo-block__img-border">
             <img
               src="./images/promo-block__img-1.jpg"
               alt=""
-              class="promo-block__img promo-block__img-position-1"
+              class="promo-block__img promo-block__img-position-top"
             />
           </div>
           <div class="promo-block__img-border">
             <img
               src="./images/promo-block__img-3.jpg"
               alt=""
-              class="promo-block__img promo-block__img-position-3"
+              class="promo-block__img promo-block__img-position-bottom"
             />
           </div>
         </div>
       </div>
+      <!-- PROMO-BLOCK END -->
     </header>
     <main class="common-margin">
+      <!-- INFO-BLOCK START -->
       <div class="info-block">
         <div class="info-block__container">
           <div class="info-block__img-container">
@@ -107,19 +110,17 @@
             />
           </div>
           <div class="info-block__text-container">
-            <p class="info-block__remark remark remark_underline-color-2">
-              About
-            </p>
+            <p class="remark remark_underline-blue">About</p>
             <p class="info-block__title title">Our Goals</p>
-            <p class="info-block__text text">
+            <p class="text">
               We believe work is about people and ideas. qSpace are inhabited by
               forward thinkers, innovators and game changers who are confident
               in achieving their goals.
             </p>
-            <button class="info-block__button button button_color-2">
+            <button class="button button_blue">
               Learn More
               <svg
-                class="button-svg_color-2"
+                class="button-svg_blue"
                 width="22"
                 height="15"
                 viewBox="0 0 22 15"
@@ -136,129 +137,114 @@
           </div>
         </div>
       </div>
-
+      <!-- INFO-BLOCK END -->
+      <!-- FACILITIES-BLOCK START -->
       <div class="facilities-block">
-        <div class="facilities-block__container">
-          <p
-            class="
-              remark remark_align-center remark_align-center-underline_color-1
-            "
-          >
-            Facilities
-          </p>
-          <p class="facilities-block__title title">
-            The advantages that we provide
-          </p>
-
-          <div class="facilities-block__columns-container">
-            <div class="facilities-block__column column">
-              <div class="column__icon-container">
-                <img
-                  src="./images/column__icon-1.svg"
-                  alt="Column icon"
-                  class="column__icon"
-                />
-              </div>
-              <p class="column__title">Engaging Community</p>
-              <p class="column__text">
-                Phasellus suspendisse non, convallis quam aliquet volutpat.
-                Netus cras quam orc.
-              </p>
+        <p class="remark remark_center remark_underline-yellow">Facilities</p>
+        <p class="facilities-block__title title">
+          The advantages that we provide
+        </p>
+        <div class="column-container">
+          <div class="facilities-block__column column">
+            <div class="column__icon-container">
+              <img
+                src="./images/column__icon-1.svg"
+                alt="Column icon"
+                class="column__icon"
+              />
             </div>
-            <!-- COLUMN ENDS -->
-            <div class="facilities-block__column column">
-              <div class="column__icon-container">
-                <img
-                  src="./images/column__icon-2.svg"
-                  alt="Column icon"
-                  class="column__icon"
-                />
-              </div>
-              <p class="column__title">Premium Facilities</p>
-              <p class="column__text">
-                Diam eu, mauris, in amet viverra. Eget ut scelerisque eget nibh
-                ut quis.
-              </p>
-            </div>
-            <!-- COLUMN ENDS -->
-            <div class="facilities-block__column column">
-              <div class="column__icon-container">
-                <img
-                  src="./images/column__icon-3.svg"
-                  alt="Column icon"
-                  class="column__icon"
-                />
-              </div>
-              <p class="column__title">Affordable Price</p>
-              <p class="column__text">
-                Velit, rutrum a cursus eleifend egestas.
-              </p>
-            </div>
-            <!-- COLUMN ENDS -->
-            <div class="facilities-block__column column">
-              <div class="column__icon-container">
-                <img
-                  src="./images/column__icon-4.svg"
-                  alt="Column icon"
-                  class="column__icon"
-                />
-              </div>
-              <p class="column__title">Workspace Personalization</p>
-              <p class="column__text">
-                Ornare tempor morbi tempor nibh est a in.
-              </p>
-            </div>
-            <!-- COLUMN ENDS -->
-            <div class="facilities-block__column column">
-              <div class="column__icon-container">
-                <img
-                  src="./images/column__icon-5.svg"
-                  alt="Column icon"
-                  class="column__icon"
-                />
-              </div>
-              <p class="column__title">24/7 Access</p>
-              <p class="column__text">
-                Tellus rhoncus enim nisl et lorem in sed. Congue nunc est
-                habitant quam lectus neque.
-              </p>
-            </div>
-            <!-- COLUMN ENDS -->
-            <div class="facilities-block__column column">
-              <div class="column__icon-container">
-                <img
-                  src="./images/column__icon-6.svg"
-                  alt="Column icon"
-                  class="column__icon"
-                />
-              </div>
-              <p class="column__title">Clean Environment</p>
-              <p class="column__text">
-                Pretium sodales vitae id gravida tempor. Erat adipiscing orci
-                turpis fames nunc, id diam.
-              </p>
-            </div>
-            <!-- COLUMN ENDS -->
+            <p class="column__title">Engaging Community</p>
+            <p class="column__text">
+              Phasellus suspendisse non, convallis quam aliquet volutpat. Netus
+              cras quam orc.
+            </p>
           </div>
+          <!-- COLUMN ENDS -->
+          <div class="facilities-block__column column">
+            <div class="column__icon-container">
+              <img
+                src="./images/column__icon-2.svg"
+                alt="Column icon"
+                class="column__icon"
+              />
+            </div>
+            <p class="column__title">Premium Facilities</p>
+            <p class="column__text">
+              Diam eu, mauris, in amet viverra. Eget ut scelerisque eget nibh ut
+              quis.
+            </p>
+          </div>
+          <!-- COLUMN ENDS -->
+          <div class="facilities-block__column column">
+            <div class="column__icon-container">
+              <img
+                src="./images/column__icon-3.svg"
+                alt="Column icon"
+                class="column__icon"
+              />
+            </div>
+            <p class="column__title">Affordable Price</p>
+            <p class="column__text">Velit, rutrum a cursus eleifend egestas.</p>
+          </div>
+          <!-- COLUMN ENDS -->
+          <div class="facilities-block__column column">
+            <div class="column__icon-container">
+              <img
+                src="./images/column__icon-4.svg"
+                alt="Column icon"
+                class="column__icon"
+              />
+            </div>
+            <p class="column__title">Workspace Personalization</p>
+            <p class="column__text">
+              Ornare tempor morbi tempor nibh est a in.
+            </p>
+          </div>
+          <!-- COLUMN ENDS -->
+          <div class="facilities-block__column column">
+            <div class="column__icon-container">
+              <img
+                src="./images/column__icon-5.svg"
+                alt="Column icon"
+                class="column__icon"
+              />
+            </div>
+            <p class="column__title">24/7 Access</p>
+            <p class="column__text">
+              Tellus rhoncus enim nisl et lorem in sed. Congue nunc est habitant
+              quam lectus neque.
+            </p>
+          </div>
+          <!-- COLUMN ENDS -->
+          <div class="facilities-block__column column">
+            <div class="column__icon-container">
+              <img
+                src="./images/column__icon-6.svg"
+                alt="Column icon"
+                class="column__icon"
+              />
+            </div>
+            <p class="column__title">Clean Environment</p>
+            <p class="column__text">
+              Pretium sodales vitae id gravida tempor. Erat adipiscing orci
+              turpis fames nunc, id diam.
+            </p>
+          </div>
+          <!-- COLUMN ENDS -->
         </div>
       </div>
-
+      <!-- FACILITIES-BLOCK END -->
+      <!-- CHOICE-BLOCK START -->
       <div class="choice-block">
-        <p
-          class="
-            remark remark_align-center remark_align-center-underline_color-2
-          "
-        >
-          Spaces
-        </p>
-        <div class="choice-block__columns-container">
+        <p class="remark remark_center remark_underline-blue">Spaces</p>
+        <div class="column-container">
           <div class="choice-block__column column">
             <p class="column__title">Office Space</p>
             <p class="column__text">
               Your own private office with a flexible contract that adapts to
               your business.
             </p>
-            <ul class="column__list">
+            <ul class="column__list column__list_yellow">
               <li class="column__list-item">Access 24/7</li>
               <li class="column__list-item">
                 Fully furnished or just the space
@@ -267,10 +253,10 @@
                 Includes all the perks of a Coworking Membership
               </li>
             </ul>
-            <button class="column__button button button_color-1">
+            <button class="column__button button button_yellow">
               Learn More
               <svg
-                class="button-svg_color-1"
+                class="button-svg_yellow"
                 width="22"
                 height="15"
                 viewBox="0 0 22 15"
@@ -291,7 +277,7 @@
             <p class="column__text">
               Work at any of our +3000 coworking spaces worldwide
             </p>
-            <ul class="column__list">
+            <ul class="column__list column__list_blue">
               <li class="column__list-item">Access during business hours</li>
               <li class="column__list-item">
                 Access to our agenda of networking events
@@ -300,10 +286,10 @@
                 Join a community of like-minded professionals
               </li>
             </ul>
-            <button class="column__button button button_color-2">
+            <button class="column__button button button_blue">
               Learn More
               <svg
-                class="button-svg_color-2"
+                class="button-svg_blue"
                 width="22"
                 height="15"
                 viewBox="0 0 22 15"
@@ -325,7 +311,7 @@
               Your own private desk in a shared office, locker included, all
               with a flexible contract.
             </p>
-            <ul class="column__list">
+            <ul class="column__list column__list_yellow">
               <li class="column__list-item">Access 24/7</li>
               <li class="column__list-item">
                 Set your business address at qSpace
@@ -334,10 +320,10 @@
                 Free access to 1000+ coworking spaces worldwide
               </li>
             </ul>
-            <button class="column__button button button_color-1">
+            <button class="column__button button button_yellow">
               Learn More
               <svg
-                class="button-svg_color-1"
+                class="button-svg_yellow"
                 width="22"
                 height="15"
                 viewBox="0 0 22 15"
@@ -354,12 +340,12 @@
           </div>
           <!-- COLUMN END -->
           <div class="choice-block__column column">
-            <p class="choice-block__column-title column__title">Meeting Room</p>
-            <p class="choice-block__column-text column__text">
+            <p class="column__title">Meeting Room</p>
+            <p class="column__text">
               On-demand meeting rooms and event spaces with all the services you
               need.
             </p>
-            <ul class="column__list">
+            <ul class="column__list column__list_blue">
               <li class="column__list-item">
                 Choose from variety of sizes and locations
               </li>
@@ -368,10 +354,10 @@
                 Catering and other services available
               </li>
             </ul>
-            <button class="column__button button button_color-2">
+            <button class="column__button button button_blue">
               Learn More
               <svg
-                class="button-svg_color-2"
+                class="button-svg_blue"
                 width="22"
                 height="15"
                 viewBox="0 0 22 15"
@@ -389,6 +375,7 @@
           <!-- COLUMN END -->
         </div>
       </div>
+      <!-- CHOICE-BLOCK END -->
     </main>
   </body>
 </html>
