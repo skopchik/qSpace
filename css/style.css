@@ -9,13 +9,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-a:hover {
-  text-decoration: underline;
-  transition: all 0.4s ease;
-}
-a:active {
-  text-shadow: rgb(184, 184, 184) 1px 0 2px;
-}
 
 ul {
   padding: 0;
@@ -154,6 +147,7 @@ ul {
 .navbar__menu {
   display: flex;
   flex-wrap: wrap;
+  font-size: 1.625rem;
 }
 
 .navbar__menu-item {
@@ -162,6 +156,13 @@ ul {
 
 .navbar__link {
   line-height: 1.625rem;
+}
+.navbar__link:hover {
+  text-decoration: underline;
+  transition: all 0.4s ease;
+}
+.navbar__link:active {
+  text-shadow: rgb(27, 26, 26) 1px 0 1px;
 }
 
 /* PROMO-BLOCK */
@@ -322,12 +323,11 @@ ul {
 }
 
 .column__list {
-  list-style-type: none;
   margin: 4rem 0;
 }
 
 .column__list-item {
-  margin-bottom: 10px;
+  margin-bottom: 0.6rem;
   padding-left: 2rem;
   background-position: 0 0;
   background-size: 1.5rem 1.5rem;
@@ -346,4 +346,19 @@ ul {
 
 .column__button {
   width: 100%;
+}
+
+/* FOOTER */
+
+.footer__column {
+  margin: 0 2.25rem;
+}
+
+.email-input {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  padding: 1rem;
 }
