@@ -377,7 +377,13 @@ ul {
 .footer__column-input {
   flex-basis: 27%;
 }
-.email-input {
+
+.footer__form {
+  position: relative;
+}
+
+.footer__email-input {
+  display: block;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -386,6 +392,18 @@ ul {
   padding: 1rem;
   margin: 1.5rem 0;
 }
+.footer__email-input:focus {
+  border-color: rgba(189, 189, 189, 1);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.footer__email-button {
+  position: absolute;
+  width: 1.5rem;
+  top: 1rem;
+  right: 2rem;
+}
 
 .footer__authors-rights {
   margin: 3.5rem 0;
@@ -393,6 +411,7 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+
 .authors-rights__text {
   margin-right: 1.56rem;
   font-size: 1rem;
